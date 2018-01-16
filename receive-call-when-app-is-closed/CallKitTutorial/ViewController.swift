@@ -2,6 +2,7 @@ import UIKit
 import CallKit
 import PushKit
 
+//curl -v -d '{"aps":{"alert":"hello"}}' --http2 --cert /Users/sun/Desktop/voip.pem --key /Users/sun/Desktop/Certificates.pem https://api.development.push.apple.com/3/device/ba771295f4ccb8ab50dcc2b761555088d8ed7a587fd7885edf4115b7f7555211
 class ViewController: UIViewController, CXProviderDelegate, PKPushRegistryDelegate {
     
     override func viewDidLoad() {
